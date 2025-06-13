@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/maraw/.vscode/Weather/mlruns/0/93bf7a297bf94bd994e4a8cd4064d305/artifacts
+deleted_time: 1749511966224
+end_time: 1749509354098
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 93bf7a297bf94bd994e4a8cd4064d305
+run_name: Linear Regression
+run_uuid: 93bf7a297bf94bd994e4a8cd4064d305
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749509344503
+status: 4
+tags: []
+user_id: maraw

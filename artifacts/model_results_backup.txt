@@ -1,0 +1,13 @@
+
+# Model Results Backup
+
+This file contains the backup of model evaluation results as of 2025-06-13.
+
+Model			RMSE
+-----------------------------
+Linear Regression	0.904
+Decision Tree		1.283
+Random Forest		0.915
+
+# (Values are based on the latest MLflow runs. Update as needed.)
+

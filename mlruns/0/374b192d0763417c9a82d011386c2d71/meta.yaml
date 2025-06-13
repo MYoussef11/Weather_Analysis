@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/maraw/.vscode/Weather/mlruns/0/374b192d0763417c9a82d011386c2d71/artifacts
+end_time: 1749683907210
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 374b192d0763417c9a82d011386c2d71
+run_name: Random Forest
+run_uuid: 374b192d0763417c9a82d011386c2d71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749683897413
+status: 3
+tags: []
+user_id: maraw
