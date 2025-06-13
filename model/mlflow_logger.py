@@ -1,10 +1,14 @@
 import mlflow
 import mlflow.sklearn
 from sklearn.metrics import root_mean_squared_error
+from datetime import datetime
 
 class MLflowLogger:
     def __init__(self):
         mlflow.sklearn.autolog()
+        # Automatically set a unique experiment name with date and time
+        experiment_name = f"WeatherRegression_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        mlflow.set_experiment(experiment_name)
 
     def train_and_log(self, model, model_name, X_train, y_train, X_test, y_test):
         with mlflow.start_run(run_name=model_name):
