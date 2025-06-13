@@ -35,4 +35,4 @@ This project demonstrates an end-to-end machine learning workflow for weather da
 - `requirements.txt` — Python dependencies
 
 ## Data
-Place your `london_weather.csv` file in the `data/` folder.
+Place your `weather.csv` file in the `data/` folder.
