@@ -31,7 +31,7 @@ This project demonstrates an end-to-end machine learning workflow for weather da
 
 ## Project Structure
 - `main.py` — Entry point for the workflow
-- `weather/` — OOP modules for data, EDA, modeling, and MLflow
+- `model/` — OOP modules for data, EDA, modeling, and MLflow
 - `requirements.txt` — Python dependencies
 
 ## Data
