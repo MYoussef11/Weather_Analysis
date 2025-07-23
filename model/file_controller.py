@@ -1,10 +1,11 @@
 import os
+import json
 from typing import List
 
 
 class FileController:
     def __init__(self):
-        self.allowed_types = eval(os.getenv("FILE_ALLOWED_TYPES", "['text/csv']"))
+        self.allowed_types = json.loads(os.getenv("FILE_ALLOWED_TYPES", '["text/csv", "application/vnd.ms-excel"]'))
         self.max_size_mb = int(os.getenv("FILE_MAX_SIZE", "10"))
         self.max_size_bytes = self.max_size_mb * 1024 * 1024
 

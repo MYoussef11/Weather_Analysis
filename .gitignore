@@ -183,6 +183,11 @@ cython_debug/
 
 # MLflow artifacts
 mlruns/
+mlartifacts/
 
 # Data 
 data/
+
+# Test files
+test.py
+eda_notebook.ipynb

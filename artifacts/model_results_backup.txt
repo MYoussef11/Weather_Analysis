@@ -11,3 +11,218 @@ Random Forest		0.915
 
 # (Values are based on the latest MLflow runs. Update as needed.)
 
+
+Date: 2025-07-21 18:53:38
+Model: Linear Regression
+Train RMSE: 0.8921
+Train R²: 0.9756
+Train MAE: 0.6945
+Eval RMSE: 0.8728
+Eval R²: 0.9768
+Eval MAE: 0.6680
+----------------------------------------
+
+Date: 2025-07-21 18:54:00
+Model: Support Vector Regression
+Train RMSE: 0.9528
+Train R²: 0.9722
+Train MAE: 0.6699
+Eval RMSE: 1.0289
+Eval R²: 0.9677
+Eval MAE: 0.7141
+----------------------------------------
+
+Date: 2025-07-21 18:54:08
+Model: Decision Tree
+Train RMSE: 1.2898
+Train R²: 1
+Train MAE: 9.3969
+Eval RMSE: 1.2295
+Eval R²: 0.9539
+Eval MAE: 0.9563
+----------------------------------------
+
+Date: 2025-07-21 18:54:21
+Model: Random Forest
+Train RMSE: 0.3297
+Train R²: 0.9966
+Train MAE: 0.2523
+Eval RMSE: 0.8698
+Eval R²: 0.9769
+Eval MAE: 0.6656
+----------------------------------------
+
+Date: 2025-07-21 18:54:29
+Model: XGBoost
+Train RMSE: 0.5673
+Train R²: 0.9901
+Train MAE: 0.4325
+Eval RMSE: 0.8894
+Eval R²: 0.9759
+Eval MAE: 0.6840
+----------------------------------------
+
+Date: 2025-07-22 02:49:13
+Model: Linear Regression
+Best Params: None
+Train RMSE: 0.8921
+Train R²: 0.9756
+Train MAE: 0.6946
+Eval RMSE: 0.8728
+Eval R²: 0.9768
+Eval MAE: 0.6680
+----------------------------------------
+
+Date: 2025-07-22 02:50:49
+Model: Support Vector Regression
+Best Params: {'regressor__C': 10, 'regressor__kernel': 'linear'}
+Train RMSE: 0.8969
+Train R²: 0.9754
+Train MAE: 0.6907
+Eval RMSE: 0.8791
+Eval R²: 0.9764
+Eval MAE: 0.6664
+----------------------------------------
+
+Date: 2025-07-22 02:51:05
+Model: Decision Tree
+Best Params: {'regressor__max_depth': 10}
+Train RMSE: 0.7067
+Train R²: 0.9847
+Train MAE: 0.5397
+Eval RMSE: 1.0286
+Eval R²: 0.9677
+Eval MAE: 0.7877
+----------------------------------------
+
+Date: 2025-07-22 02:51:30
+Model: Random Forest
+Best Params: {'regressor__max_depth': 10, 'regressor__n_estimators': 100}
+Train RMSE: 0.6323
+Train R²: 0.9878
+Train MAE: 0.4934
+Eval RMSE: 0.8608
+Eval R²: 0.9774
+Eval MAE: 0.6583
+----------------------------------------
+
+Date: 2025-07-22 02:51:49
+Model: XGBoost
+Best Params: {'regressor__max_depth': 3, 'regressor__n_estimators': 100}
+Train RMSE: 0.8090
+Train R²: 0.9800
+Train MAE: 0.6309
+Eval RMSE: 0.8720
+Eval R²: 0.9768
+Eval MAE: 0.6755
+----------------------------------------
+
+Date: 2025-07-23 03:40:26
+Model: Linear Regression
+Best Params: None
+Train RMSE: 0.8921
+Train R²: 0.9756
+Train MAE: 0.6946
+Eval RMSE: 0.8728
+Eval R²: 0.9768
+Eval MAE: 0.6680
+----------------------------------------
+
+Date: 2025-07-23 03:42:04
+Model: Support Vector Regression
+Best Params: {'regressor__C': 10, 'regressor__kernel': 'linear'}
+Train RMSE: 0.8969
+Train R²: 0.9754
+Train MAE: 0.6907
+Eval RMSE: 0.8791
+Eval R²: 0.9764
+Eval MAE: 0.6664
+----------------------------------------
+
+Date: 2025-07-23 03:42:12
+Model: Decision Tree
+Best Params: {'regressor__max_depth': 10}
+Train RMSE: 0.7067
+Train R²: 0.9847
+Train MAE: 0.5397
+Eval RMSE: 1.0286
+Eval R²: 0.9677
+Eval MAE: 0.7877
+----------------------------------------
+
+Date: 2025-07-23 03:42:27
+Model: Random Forest
+Best Params: {'regressor__max_depth': 10, 'regressor__n_estimators': 100}
+Train RMSE: 0.6323
+Train R²: 0.9878
+Train MAE: 0.4934
+Eval RMSE: 0.8608
+Eval R²: 0.9774
+Eval MAE: 0.6583
+----------------------------------------
+
+Date: 2025-07-23 03:42:34
+Model: XGBoost
+Best Params: {'regressor__max_depth': 3, 'regressor__n_estimators': 100}
+Train RMSE: 0.8090
+Train R²: 0.9800
+Train MAE: 0.6309
+Eval RMSE: 0.8720
+Eval R²: 0.9768
+Eval MAE: 0.6755
+----------------------------------------
+
+Date: 2025-07-23 03:58:58
+Model: Linear Regression
+Best Params: None
+Train RMSE: 0.8921
+Train R²: 0.9756
+Train MAE: 0.6946
+Eval RMSE: 0.8728
+Eval R²: 0.9768
+Eval MAE: 0.6680
+----------------------------------------
+
+Date: 2025-07-23 04:00:52
+Model: Support Vector Regression
+Best Params: {'regressor__C': 10, 'regressor__kernel': 'linear'}
+Train RMSE: 0.8969
+Train R²: 0.9754
+Train MAE: 0.6907
+Eval RMSE: 0.8791
+Eval R²: 0.9764
+Eval MAE: 0.6664
+----------------------------------------
+
+Date: 2025-07-23 04:01:16
+Model: Decision Tree
+Best Params: {'regressor__max_depth': 10}
+Train RMSE: 0.7067
+Train R²: 0.9847
+Train MAE: 0.5397
+Eval RMSE: 1.0286
+Eval R²: 0.9677
+Eval MAE: 0.7877
+----------------------------------------
+
+Date: 2025-07-23 04:01:48
+Model: Random Forest
+Best Params: {'regressor__max_depth': 10, 'regressor__n_estimators': 100}
+Train RMSE: 0.6323
+Train R²: 0.9878
+Train MAE: 0.4934
+Eval RMSE: 0.8608
+Eval R²: 0.9774
+Eval MAE: 0.6583
+----------------------------------------
+
+Date: 2025-07-23 04:02:12
+Model: XGBoost
+Best Params: {'regressor__max_depth': 3, 'regressor__n_estimators': 100}
+Train RMSE: 0.8090
+Train R²: 0.9800
+Train MAE: 0.6309
+Eval RMSE: 0.8720
+Eval R²: 0.9768
+Eval MAE: 0.6755
+----------------------------------------
