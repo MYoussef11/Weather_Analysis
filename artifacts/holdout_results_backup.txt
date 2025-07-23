@@ -1,0 +1,21 @@
+
+Date: 2025-07-23 18:34:27
+Model: XGBoost
+Holdout RMSE: 0.9477
+Holdout MAE: 0.7287
+Holdout R²: 0.9740
+----------------------------------------
+
+Date: 2025-07-23 18:34:27
+Model: Linear Regression
+Holdout RMSE: 1.2466
+Holdout MAE: 0.9033
+Holdout R²: 0.9551
+----------------------------------------
+
+Date: 2025-07-23 18:34:27
+Model: Random Forest
+Holdout RMSE: 0.9329
+Holdout MAE: 0.7198
+Holdout R²: 0.9748
+----------------------------------------
