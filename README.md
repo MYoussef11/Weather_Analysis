@@ -6,7 +6,7 @@ This project demonstrates an end-to-end machine learning workflow for weather da
 - Data loading and cleaning
 - Exploratory Data Analysis (EDA)
 - Feature selection and preprocessing
-- Model training (Linear Regression, Decision Tree, Random Forest)
+- Model training (Linear Regression, Decision Tree, Random Forest, SVR, XGBoost)
 - MLflow experiment tracking
 - Modular, object-oriented code structure
 
