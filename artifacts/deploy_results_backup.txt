@@ -5,3 +5,24 @@ Deploy RMSE: 1.0529
 Deploy MAE: 1.0529
 Deploy R²: Not defined for single sample
 ----------------------------------------
+
+Date: 2025-07-24 12:37:30
+Model: XGBoost
+Deploy RMSE: 0.5738
+Deploy MAE: 0.5738
+Deploy R²: Not defined for single sample
+----------------------------------------
+
+Date: 2025-07-24 13:13:44
+Model: XGBoost
+Deploy RMSE: 1.6172
+Deploy MAE: 1.6172
+Deploy R²: Not defined for single sample
+----------------------------------------
+
+Date: 2025-07-24 13:21:17
+Model: Random Forest
+Deploy RMSE: 1.3774
+Deploy MAE: 1.3774
+Deploy R²: Not defined for single sample
+----------------------------------------

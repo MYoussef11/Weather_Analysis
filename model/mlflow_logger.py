@@ -3,7 +3,7 @@ import mlflow.sklearn
 from sklearn.metrics import root_mean_squared_error, r2_score, mean_absolute_error
 from datetime import datetime
 import logging
-import json
+
 
 class MLflowLogger:
     """

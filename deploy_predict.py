@@ -19,13 +19,13 @@ ARTIFACT_PATH = "artifacts/deploy_results_backup.txt"
 # Example input: today's weather features
 # Replace these values with real-time or user input as needed
 TODAY_INPUT = {
-    "cloud_cover": 1,             # oktas
-    "sunshine": 4.5,              # hours
-    "global_radiation": 550,      # W/m2
-    "max_temp": 22,               # °C
-    "min_temp": 14,               # °C
-    "precipitation": 1.2,         # mm
-    "pressure": 101900,           # Pa
+    "cloud_cover": 0.75,             # oktas
+    "sunshine": 3.5,              # hours
+    "global_radiation": 300,      # W/m2
+    "max_temp": 21,               # °C
+    "min_temp": 15,               # °C
+    "precipitation": 2.3,         # mm
+    "pressure": 101700,           # Pa
     "snow_depth": 0               # cm
 }
 
