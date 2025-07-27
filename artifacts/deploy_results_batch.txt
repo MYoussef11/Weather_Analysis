@@ -1,0 +1,35 @@
+
+Date: 2025-07-27 15:46:51
+Model: Random Forest
+Deploy RMSE: 1.2379
+Deploy MAE: 1.1439
+Deploy R²: -0.6921
+----------------------------------------
+
+Date: 2025-07-27 15:53:28
+Model: XGBoost
+Deploy RMSE: 0.7874
+Deploy MAE: 0.7288
+Deploy R²: 0.3153
+----------------------------------------
+
+Date: 2025-07-27 15:59:47
+Model: Linear Regression
+Deploy RMSE: 2.1817
+Deploy MAE: 2.1224
+Deploy R²: -4.2558
+----------------------------------------
+
+Date: 2025-07-27 16:05:22
+Model: Decision Tree
+Deploy RMSE: 2.0972
+Deploy MAE: 1.4742
+Deploy R²: -3.8569
+----------------------------------------
+
+Date: 2025-07-27 16:10:49
+Model: Support Vector Regression
+Deploy RMSE: 1.8660
+Deploy MAE: 1.8154
+Deploy R²: -2.8449
+----------------------------------------
