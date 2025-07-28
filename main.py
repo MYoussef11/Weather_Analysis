@@ -2,7 +2,7 @@ import os
 import logging
 import mimetypes
 from datetime import datetime
-from config import DATA_DIR, DEFAULT_DATA_FILE
+from model.config import DATA_DIR, DEFAULT_DATA_FILE
 from model.data_loader import DataLoader
 from model.preprocessing import DataPreprocessor
 from model.eda import EDA
