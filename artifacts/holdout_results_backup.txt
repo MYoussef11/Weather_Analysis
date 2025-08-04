@@ -19,3 +19,17 @@ Holdout RMSE: 0.9329
 Holdout MAE: 0.7198
 Holdout R²: 0.9748
 ----------------------------------------
+
+Date: 2025-08-04 22:04:34
+Model: XGBoost
+Holdout RMSE: 0.9203
+Holdout MAE: 0.7095
+Holdout R²: 0.9755
+----------------------------------------
+
+Date: 2025-08-04 22:04:34
+Model: Random Forest
+Holdout RMSE: 0.9327
+Holdout MAE: 0.7217
+Holdout R²: 0.9749
+----------------------------------------
