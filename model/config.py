@@ -1,7 +1,7 @@
 import os
 
 # General project configuration
-DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
 ARTIFACTS_DIR = os.path.join(os.path.dirname(__file__), 'artifacts')
 
 # Data file name (default)

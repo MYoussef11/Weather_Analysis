@@ -1,0 +1,148 @@
+
+Date: 2025-08-02 01:50:42
+Model: Random Forest V2
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_split': 10, 'regressor__max_depth': 10}
+Train RMSE: 0.6603936111951426
+Train R2: 0.9866482914952069
+Train MAE: 0.5138478447679498
+Eval RMSE: 0.8595257093112705
+Eval R2: 0.9774723350912737
+Eval MAE: 0.6566137112936369
+----------------------------------------
+
+Date: 2025-08-02 02:27:15
+Model: Random Forest V2
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_split': 10, 'regressor__max_depth': 10}
+Train RMSE: 0.6603936111951426
+Train R2: 0.9866482914952069
+Train MAE: 0.5138478447679498
+Eval RMSE: 0.8595257093112705
+Eval R2: 0.9774723350912737
+Eval MAE: 0.6566137112936369
+----------------------------------------
+
+Date: 2025-08-02 02:45:20
+Model: Random Forest V2
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_split': 10, 'regressor__max_depth': 10}
+Train RMSE: 0.6603936111951426
+Train R2: 0.9866482914952069
+Train MAE: 0.5138478447679498
+Eval RMSE: 0.8595257093112705
+Eval R2: 0.9774723350912737
+Eval MAE: 0.6566137112936369
+----------------------------------------
+
+Date: 2025-08-03 03:22:01
+Model: Random Forest
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_leaf': 4, 'regressor__max_depth': 10}
+Train RMSE: 0.6710
+Test RMSE: 0.8612
+Train R²: 0.9862
+Test R²: 0.9774
+----------------------------------------
+
+Date: 2025-08-03 03:38:15
+Model: Random Forest
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_leaf': 1, 'regressor__max_depth': 10}
+Train RMSE: 0.6312
+Test RMSE: 0.8610
+Train R²: 0.9878
+Test R²: 0.9774
+----------------------------------------
+
+Date: 2025-08-03 03:50:44
+Model: Random Forest
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_leaf': 4, 'regressor__max_depth': 10}
+Train RMSE: 0.6710
+Test RMSE: 0.8612
+Train R²: 0.9862
+Test R²: 0.9774
+----------------------------------------
+
+Date: 2025-08-03 15:11:14
+Model: Random Forest
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_split': 5, 'regressor__min_samples_leaf': 4, 'regressor__max_features': 'log2', 'regressor__max_depth': None, 'regressor__bootstrap': True}
+Train RMSE: 0.6102
+Train R²: 0.9886
+Train MAE: 0.4652
+Eval RMSE: 0.8720
+Eval R²: 0.9768
+Eval MAE: 0.6547
+----------------------------------------
+
+Date: 2025-08-03 15:11:46
+Model: XGBoost
+Best Params: {'regressor__subsample': 0.7, 'regressor__reg_lambda': 1, 'regressor__reg_alpha': 0.1, 'regressor__n_estimators': 200, 'regressor__max_depth': 3, 'regressor__learning_rate': 0.1, 'regressor__colsample_bytree': 0.9}
+Train RMSE: 0.8024
+Train R²: 0.9803
+Train MAE: 0.6243
+Eval RMSE: 0.8400
+Eval R²: 0.9785
+Eval MAE: 0.6500
+----------------------------------------
+
+Date: 2025-08-03 21:12:08
+Model: Random Forest
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_split': 5, 'regressor__min_samples_leaf': 2, 'regressor__max_features': None, 'regressor__max_depth': 20, 'regressor__bootstrap': True}
+Train RMSE: 0.4363
+Train R²: 0.9942
+Train MAE: 0.3251
+Eval RMSE: 0.8664
+Eval R²: 0.9771
+Eval MAE: 0.6622
+----------------------------------------
+
+Date: 2025-08-03 21:12:28
+Model: XGBoost
+Best Params: {'regressor__subsample': 0.8, 'regressor__reg_lambda': 1, 'regressor__reg_alpha': 0.1, 'regressor__n_estimators': 300, 'regressor__max_depth': 3, 'regressor__learning_rate': 0.05, 'regressor__colsample_bytree': 0.9}
+Train RMSE: 0.8133
+Train R²: 0.9798
+Train MAE: 0.6316
+Eval RMSE: 0.8434
+Eval R²: 0.9783
+Eval MAE: 0.6498
+----------------------------------------
+
+Date: 2025-08-04 21:11:58
+Model: Random Forest
+Best Params: {'regressor__n_estimators': 200, 'regressor__min_samples_split': 2, 'regressor__min_samples_leaf': 4, 'regressor__max_features': None, 'regressor__max_depth': None, 'regressor__bootstrap': True}
+Train RMSE: 0.5610
+Train R²: 0.9904
+Train MAE: 0.4249
+Eval RMSE: 0.8625
+Eval R²: 0.9773
+Eval MAE: 0.6585
+----------------------------------------
+
+Date: 2025-08-04 21:12:21
+Model: XGBoost
+Best Params: {'regressor__subsample': 1.0, 'regressor__reg_lambda': 0.5, 'regressor__reg_alpha': 0.1, 'regressor__n_estimators': 300, 'regressor__max_depth': 5, 'regressor__learning_rate': 0.05, 'regressor__colsample_bytree': 0.9}
+Train RMSE: 0.7147
+Train R²: 0.9844
+Train MAE: 0.5557
+Eval RMSE: 0.8378
+Eval R²: 0.9786
+Eval MAE: 0.6435
+----------------------------------------
+
+Date: 2025-08-04 21:31:00
+Model: Random Forest
+Best Params: {'regressor__n_estimators': 300, 'regressor__min_samples_split': 10, 'regressor__min_samples_leaf': 4, 'regressor__max_features': None, 'regressor__max_depth': 10, 'regressor__bootstrap': True}
+Train RMSE: 0.6768
+Train R²: 0.9860
+Train MAE: 0.5210
+Eval RMSE: 0.8613
+Eval R²: 0.9774
+Eval MAE: 0.6567
+----------------------------------------
+
+Date: 2025-08-04 21:31:24
+Model: XGBoost
+Best Params: {'regressor__subsample': 1.0, 'regressor__reg_lambda': 2, 'regressor__reg_alpha': 0.1, 'regressor__n_estimators': 300, 'regressor__max_depth': 3, 'regressor__learning_rate': 0.1, 'regressor__colsample_bytree': 0.7}
+Train RMSE: 0.7882
+Train R²: 0.9810
+Train MAE: 0.6123
+Eval RMSE: 0.8321
+Eval R²: 0.9789
+Eval MAE: 0.6421
+----------------------------------------

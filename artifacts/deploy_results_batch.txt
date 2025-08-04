@@ -33,3 +33,17 @@ Deploy RMSE: 1.8660
 Deploy MAE: 1.8154
 Deploy R²: -2.8449
 ----------------------------------------
+
+Date: 2025-08-04 22:25:37
+Model: XGBoost
+Deploy RMSE: 1.3741
+Deploy MAE: 1.2005
+Deploy R²: -1.0849
+----------------------------------------
+
+Date: 2025-08-04 22:27:32
+Model: Random Forest
+Deploy RMSE: 1.1187
+Deploy MAE: 1.0057
+Deploy R²: -0.3820
+----------------------------------------

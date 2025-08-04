@@ -107,3 +107,9 @@ class MLflowLogger:
         except Exception as e:
             logging.error(f"Error showing MLflow results: {e}")
             return None
+        
+    def log_artifact(self, file_path):
+        """
+        Log an artifact file to the current MLflow run.
+        """
+        mlflow.log_artifact(file_path)

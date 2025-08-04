@@ -1,0 +1,8 @@
+min_temp: 0.9073
+max_temp: 0.0743
+global_radiation: 0.0084
+sunshine: 0.0066
+pressure: 0.0014
+cloud_cover: 0.0010
+precipitation: 0.0008
+snow_depth: 0.0000

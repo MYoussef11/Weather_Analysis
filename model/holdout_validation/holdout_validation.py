@@ -1,24 +1,24 @@
 import os
 import pandas as pd
 import numpy as np
+import mlflow
 import mlflow.sklearn
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from datetime import datetime
 
 """
 Holdout Validation Script
-
 Evaluates selected trained models (XGBoost, LinearRegression, RandomForest) on an unseen holdout dataset and saves results to artifacts/holdout_results_backup.txt.
 """
 
+mlflow.set_tracking_uri("http://localhost:5000") 
 HOLDOUT_CSV = "data/london_weather_data_2021_to_2023.csv"
 ARTIFACT_PATH = "artifacts/holdout_results_backup.txt"
 
 # Models to evaluate: (run_id, pipeline_name, display_name)
 MODELS = [
-    ("5a6bc60497b64ee1bec37f1a86ab7c4b", "XGBoost_pipeline", "XGBoost"),
-    ("14e7058a1efc4f0f9d22c9f2213c5f7b", "Linear Regression_pipeline", "Linear Regression"),
-    ("f034353edda14a79a0284b931d31979a", "Random Forest_pipeline", "Random Forest")
+    ("5b082b11b5fe42198b7d4b35ccdd7b3d", "XGBoost_pipeline", "XGBoost"),
+    ("278a10e4e55144a49e9d83a82a4349b5", "Random Forest_pipeline", "Random Forest")
 ]
 
 def load_holdout_data(path):

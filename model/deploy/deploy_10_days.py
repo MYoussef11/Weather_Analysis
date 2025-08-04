@@ -14,12 +14,12 @@ and evaluates performance using standard regression metrics.
 """
 
 # === Configuration ===
-MODEL_RUN_ID = "5a6bc60497b64ee1bec37f1a86ab7c4b"  # Update with your actual run ID
-PIPELINE_NAME = "XGBoost_pipeline" # Update if needed
+MODEL_RUN_ID = "278a10e4e55144a49e9d83a82a4349b5"  # Update with your actual run ID
+PIPELINE_NAME = "Random Forest_pipeline" # Update if needed
 MODEL_URI = f"runs:/{MODEL_RUN_ID}/{PIPELINE_NAME}"
 DEPLOY_CSV = "data/Last 10 days London weather.csv"
 ARTIFACT_PATH = "artifacts/deploy_results_batch.txt"
-MODEL_NAME = "XGBoost"  # Update if needed
+MODEL_NAME = "Random Forest"  # Update if needed
 mlflow.set_tracking_uri("http://localhost:5000")
 
 # Load deploy data
